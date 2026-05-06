@@ -1,7 +1,17 @@
 img {
-  width: 100%;
+  width: 50vw;
 }
+
+@media screen and (max-aspect-ratio: 1) {
+  img {
+    width: 100vw;
+  }
+}
+
 
 body {
   background-color: #ffe9b7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
